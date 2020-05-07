@@ -1,0 +1,95 @@
+def lire(choix_automate) :
+    if choix_automate == 1 : 
+        fichier = open("E4-1.txt", "r")
+        
+    elif choix_automate == 2 : 
+        fichier = open("E4-2.txt", "r")
+    elif choix_automate == 3 : 
+        fichier = open("E4-3.txt", "r")
+    elif choix_automate == 4 : 
+        fichier = open("E4-4.txt", "r")
+    elif choix_automate == 5 : 
+        fichier = open("E4-5.txt", "r")
+    elif choix_automate == 6 : 
+        fichier = open("E4-6.txt", "r")
+    elif choix_automate == 7 : 
+        fichier = open("E4-7.txt", "r")
+    elif choix_automate == 8 : 
+        fichier = open("E4-8.txt", "r")
+    elif choix_automate == 9 : 
+        fichier = open("E4-9.txt", "r")
+    elif choix_automate == 10 : 
+        fichier = open("E4-10.txt", "r")
+    elif choix_automate == 11 : 
+        fichier = open("E4-11.txt", "r")
+    elif choix_automate == 12 : 
+        fichier = open("E4-12.txt", "r")
+    elif choix_automate == 13 : 
+        fichier = open("E4-13.txt", "r")
+    elif choix_automate == 14 : 
+        fichier = open("E4-14.txt", "r")
+    elif choix_automate == 15 : 
+        fichier = open("E4-15.txt", "r")
+    elif choix_automate == 16 : 
+        fichier = open("E4-16.txt", "r")
+    elif choix_automate == 17 : 
+        fichier = open("E4-17.txt", "r")
+    elif choix_automate == 18 : 
+        fichier = open("E4-18.txt", "r")
+    elif choix_automate == 19 : 
+        fichier = open("E4-19.txt", "r")
+    elif choix_automate == 20 : 
+        fichier = open("E4-20.txt", "r")
+    elif choix_automate == 21 : 
+        fichier = open("E4-21.txt", "r")
+    elif choix_automate == 22 : 
+        fichier = open("E4-22.txt", "r")
+    elif choix_automate == 23 : 
+        fichier = open("E4-23.txt", "r")
+    elif choix_automate == 24 : 
+        fichier = open("E4-24.txt", "r")
+    elif choix_automate == 25 : 
+        fichier = open("E4-25.txt", "r")
+    elif choix_automate == 26 : 
+        fichier = open("E4-26.txt", "r")
+    elif choix_automate == 27 : 
+        fichier = open("E4-27.txt", "r")
+    elif choix_automate == 28 : 
+        fichier = open("E4-28.txt", "r")
+    elif choix_automate == 29 : 
+        fichier = open("E4-29.txt", "r")
+    elif choix_automate == 30 : 
+        fichier = open("E4-30.txt", "r")
+    elif choix_automate == 31 : 
+        fichier = open("E4-31.txt", "r")
+    elif choix_automate == 32 : 
+        fichier = open("E4-32.txt", "r")
+    elif choix_automate == 33 : 
+        fichier = open("E4-33.txt", "r")
+    elif choix_automate == 34 : 
+        fichier = open("E4-34.txt", "r")
+    elif choix_automate == 35 : 
+        fichier = open("E4-35.txt", "r")
+    elif choix_automate == 36 : 
+        fichier = open("E4-36.txt", "r")
+    elif choix_automate == 37 : 
+        fichier = open("E4-37.txt", "r")
+    elif choix_automate == 38 : 
+        fichier = open("E4-38.txt", "r")
+    elif choix_automate == 39 : 
+        fichier = open("E4-39.txt", "r")
+    elif choix_automate == 40 : 
+        fichier = open("E4-40.txt", "r")
+    elif choix_automate == 41 : 
+        fichier = open("E4-41.txt", "r")
+    elif choix_automate == 42 : 
+        fichier = open("E4-42.txt", "r")
+    elif choix_automate == 44 : 
+        fichier = open("E4-44.txt", "r")
+        
+        
+    contenu = fichier.read()
+    automate = contenu.split("\n")
+    
+    fichier.close()
+   return automate
